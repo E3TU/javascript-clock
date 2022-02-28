@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Linkataan css html:ään ja annetaan title-->
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Clock</title>
+</head>
+<body>
+    <!--Container jonka sisällä on kaikki elementit-->
+    <div class="container">
+
+        <!--Kellon viisarit ja keskikohta-->
+        <div class="clock" id="clock">
+            <div class="hand hour" id="hour"></div>
+            <div class="hand minute" id="minute"></div>
+            <div class="hand second" id="second"></div>
+            <div class="centerpoint"></div>
+        </div>
+        <!--Date ja time elementit jotta näemme päivämäärän-->
+        <div class="time" id="time"></div>
+        <div class="date" id="date"></div>
+    </div>
+    <!--Nappi-->
+    <button class="theme" id="theme">Light Mode</button>
+
+    <!--Linkataan javascript tiedosto html:ään-->
+    <script src="main.js"></script>
+</body>
+</html>
