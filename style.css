@@ -21,9 +21,10 @@ body{
 }
 /*napille teema, koko ja border*/
 .theme{
-    position: absolute;
-    bottom: 200px;
-    left: 46.4%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    top: 3%;
     border: 3px solid #1ab2db;
     background-color: #1f1f1f;
     border-radius: 12px;
@@ -48,8 +49,13 @@ body{
 /*Määritellään miten asiat näkyvät containerin sisällä*/
 .container{
     display: flex;
+    margin-top: 8rem;
     flex-direction: column;
     align-items: center;
+}
+.container22{
+    width: 400px;
+    height: 320px;
 }
 /*Määritellään analogisen kellon koko ja border*/
 .clock{
