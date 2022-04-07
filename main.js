@@ -48,15 +48,14 @@ theme.addEventListener("click", () => {
         document.body.style.backgroundColor = "#191919";
         document.getElementById("date").style.color = "white";
         document.getElementById("clock").style.borderColor = "white";
-        document.getElementById("clock").style("clockwhite");
         theme.innerHTML = "Light mode";
     } else{
         html.classList.add("dark");
-        theme.innerHTML = "Dark mode";
+        theme.innerHTML = "L mode";
     }
     if(html.classList.contains("dark")) {
         html.classList.remove("dark");
-        html.classList.add("light")
+        html.classList.add("light");
         document.body.style.backgroundColor = "white";
         document.getElementById("clock").style.borderColor = "black";
         document.getElementById("date").style.color = "black";
