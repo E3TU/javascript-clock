@@ -49,13 +49,13 @@ body{
 /*Määritellään miten asiat näkyvät containerin sisällä*/
 .container{
     display: flex;
-    margin-top: 8rem;
+    margin-top: 2rem;
     flex-direction: column;
     align-items: center;
 }
 .container22{
     width: 400px;
-    height: 320px;
+    height: 500px;
 }
 /*Määritellään analogisen kellon koko ja border*/
 .clock{
