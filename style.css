@@ -1,16 +1,13 @@
-/*importataan fontti google fonteista*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-/*määritetään opacity jota käytämme myöhemmin kellossa*/
 :root{
     --opacity: 0.1;
     --inset-opacity: 0.5;
 }
-/*määritellään bodyn väri, fontti ja koko*/
 body{
     background-color: #191919;
     font-family: 'Oswald', sans-serif;
@@ -19,7 +16,6 @@ body{
     justify-content: center;
     height: 100vh;
 }
-/*napille teema, koko ja border*/
 .theme{
     position: relative;
     display: flex;
@@ -32,21 +28,17 @@ body{
     font-size: 20px;
     color: #fff;
 }
-/*jos hoveraat cursoria napin päällä niin opacit*/
 .theme:hover{
     opacity: 0.8;
 }
-/*time elementin väri ja fonttikoko*/
 .time{
     font-size: 75px;
     color: #1ab2db;
 }
-/*Date elementin väri ja koko*/
 .date{
     color: #fff;
     font-size: 25px;
 }
-/*Määritellään miten asiat näkyvät containerin sisällä*/
 .container{
     display: flex;
     margin-top: 2rem;
@@ -57,7 +49,6 @@ body{
     width: 400px;
     height: 500px;
 }
-/*Määritellään analogisen kellon koko ja border*/
 .clock{
     height: 200px;
     width: 200px;
@@ -68,35 +59,30 @@ body{
     margin-bottom: 10px;
     position: relative;
 }
-/*Viisareiden paikka*/
 .hand{
     position: absolute;
     top: 50%;
     left: 50%;
     transform-origin: bottom center;
 }
-/*Tunti viisarin väri, pituus ja paksuus*/
 .hand.hour{
     background-color: #9d9d9d;
     width: 5px;
     height: 65px;
     transform: translate(-50%, -100%) rotate(0deg);
 }
-/*Minuutti viisarin väri, pituus ja paksuus*/
 .hand.minute{
     background-color: #9d9d9d;
     width: 3px;
     height: 75px;
     transform: translate(-50%, -100%)rotate(0deg);
 }
-/*Sekuntti viisarin väri, pituus ja paksuus*/
 .hand.second{
     background-color: #d82424;
     width: 2px;
     height: 80px;
     transform: translate(-50%, -100%)rotate(0deg);
 }
-/*Keskikohta kellolle*/
 .centerpoint{
     position: absolute;
     top: 50%;
