@@ -1,2 +1,2 @@
 # clock
-Analog clock made with javascript
+Clock app built with vanilla javascript
